@@ -1,11 +1,7 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
 
-function MyApp() {
-  return (
-   <div>
-     <p>testing ...</p>
-   </div>
-  )
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
