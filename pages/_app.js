@@ -2,10 +2,9 @@ import '../styles/globals.css'
 
 function MyApp() {
   return (
-    <h1>hello
-      
-    </h1>
-    
+   <div>
+     <p>testing ...</p>
+   </div>
   )
 }
 
