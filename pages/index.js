@@ -6,9 +6,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>slider Page</title>
+        <title>Slider Page</title>
         <meta name="slider" content="" />
       </Head>
+      <h1>index page</h1>
+      <h1>index page</h1>
+      <h1>index page</h1>
     </div>
   )
 }
