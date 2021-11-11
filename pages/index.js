@@ -13,14 +13,24 @@ export default function Home() {
         <h1 className="text-center text-gray-700">Reviews</h1>
       </div>
       <div className="flex justify-center mt-16">
-        <Image
-          src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
-          alt="pic"
-          width={150}
-          height={150}
-          layout="fixed"
-          className="rounded-full border-solid border-8 border-gray-800"
-        />
+        <div className="flex flex-col justify-center items-center">
+          <Image
+            src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
+            alt="pic"
+            width={150}
+            height={150}
+            layout="fixed"
+            className="border-solid object-cover  rounded-full  border-8 border-gray-800"
+          />
+          
+          <h1 className="text-center mt-5">Marie Ferguson</h1>
+          <h4 className="text-center ">Office Manager</h4>
+          <p className="text-center mt-5">
+            Fingerstache umami squid, kinfolk subway tile selvage tumblr man
+            braid viral kombucha gentrify
+          </p>
+          <p className="text-center mt-3">fanny pack raclette pok pok mustache.</p>
+        </div>
       </div>
     </div>
   );
