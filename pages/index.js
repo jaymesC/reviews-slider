@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import {ChevronLeftIcon, ChevronRightIcon} from '@heroicons/react/outline'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <h1 className="text-center text-gray-700">Reviews</h1>
       </div>
       <div className="flex justify-center mt-16">
+        <ChevronLeftIcon className="h-10"/>
         <div className="flex flex-col justify-center items-center">
           <Image
             src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
@@ -31,6 +33,7 @@ export default function Home() {
           </p>
           <p className="text-center mt-3">fanny pack raclette pok pok mustache.</p>
         </div>
+        <ChevronRightIcon className="h-10 justify-center items-center"/>
       </div>
     </div>
   );
