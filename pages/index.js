@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import {ChevronLeftIcon, ChevronRightIcon} from '@heroicons/react/outline'
+import data from '../data'
 
 export default function Home() {
   return (
