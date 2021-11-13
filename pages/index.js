@@ -17,6 +17,11 @@ export default function Home() {
       <div className="flex justify-center mt-16 ">
         <ChevronLeftIcon className="h-8 cursor-pointer bg-gray-400 rounded-md mr-3 self-center mt-16" />
         <div className="flex flex-col justify-center items-center text-gray-500">
+        {data.map(person => (
+          <div key={person.name}>
+
+          </div>
+        ))}
           <Image
             src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg"
             alt="pic"
