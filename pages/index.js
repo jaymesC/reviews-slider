@@ -21,7 +21,7 @@ export default function Home() {
         <ChevronLeftIcon className="h-8 cursor-pointer bg-gray-400 rounded-md mr-3 self-center mt-16" />
           <div
             key={data[people].id}
-            className="flex flex-col justify-center items-center text-gray-500"
+            className="flex flex-col justify-center items-center text-gray-500 "
           >
             <Image
               src={data[people].image}
@@ -32,15 +32,11 @@ export default function Home() {
               className="border-solid object-cover  rounded-full  border-8 border-gray-800"
             />
             <h1 className="text-center text-lg mt-5 text-yellow-700">
-              Marie Ferguson
+              {data[people].name}
             </h1>
-            <h4 className="text-center ">Office Manager</h4>
+            <h4 className="text-center ">{data[people].position}</h4>
             <p className="text-center mt-5">
-              Fingerstache umami squid, kinfolk subway tile selvage tumblr man
-              braid viral kombucha gentrify
-            </p>
-            <p className="text-center mt-3">
-              fanny pack raclette pok pok mustache.
+              {data[people].description}
             </p>
             <svg
               stroke="currentColor"
