@@ -33,6 +33,6 @@ export const data = [
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
     position: "THE BOSS",
     description:
-      "ymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag.",
+      "ymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. cloud bread mustache twee messenger bag lorem ",
   },
 ];

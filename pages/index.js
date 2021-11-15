@@ -41,7 +41,7 @@ export default function Home() {
           <h1 className="text-center text-lg mt-5 text-yellow-700">
             {data[people].name}
           </h1>
-          <h4 className="text-center ">{data[people].position}</h4>
+          <h4 className="text-center ">{data[people].position.toUpperCase()}</h4>
           <p className="text-center mt-5">{data[people].description}</p>
           <svg
             stroke="currentColor"
@@ -58,10 +58,12 @@ export default function Home() {
         </div>
         <ChevronRightIcon
           className="h-8 cursor-pointer bg-gray-400 rounded-md ml-3 self-center mt-16"
-          onClick={() =>
+          onClick={() => 
+
             people <= data.length - 4
               ? setPeople(people + 3)
               : setPeople(people - 1)
+          
           }
         />
       </div>
