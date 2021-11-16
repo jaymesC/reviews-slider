@@ -6,11 +6,6 @@ import React, {useState, useEffect} from "react";
 
 export default function Home() {
   const [people, setPeople] = useState(0);
-  const [isLoading, setIsLoading] = useState(0);
-
-  useEffect(() =>{
-
-  },[])
 
   return (
     <div>
